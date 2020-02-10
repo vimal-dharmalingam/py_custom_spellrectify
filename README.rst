@@ -31,6 +31,7 @@ Initailize the handler and load the custom list and auto correct:
 
 .. code-block:: python
 
+    >>> from py_custom_spellrectify import py_custom_spellrectify
     >>> from py_custom_spellrectify import WordCorrection
     >>> word_handler= WordCorrection()
     >>> word_handler.load(input_words=['Commercially', 'available', 'development', 'Discontinued', 'Production', 'Ready', 'Samples', 'Prototype'])
